@@ -7,33 +7,73 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bootstrap Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body class="text-secondary">
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary"">
-    <div class=" container">
-    <a class="navbar-brand" href="index.thml">Kevin Chang</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    <div class="container">
+      <a class="navbar-brand" href="index.thml">Kevin Chang</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-        </li>
-      </ul>
-    </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
+  <div class="container main-section border border-primary">
+    <div class="row m-4">
+      <div class="col-12 border-bottom border-primary pb-2">
+        <h1>Portfolio</h1>
+      </div>
+    </div>
+    <div class="row m-3">
+      <div class="col-12 col-sm-6 col-md-4 my-2">
+        <img class="img-fluid" src="assets/images/doge.jpg">
+        <h3 class="py-3 mb-2 bg-primary text-white">Doge Dog</h3>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 my-2">
+        <img class="img-fluid" src="assets/images/bear.jpg">
+        <h3 class="py-3 mb-2 bg-primary text-white">Bare Bear</h3>
+      </div>
+    </div>
+
+    <div class="row m-3">
+      <div class="col-12 col-sm-6 col-md-4 my-2">
+        <img class="img-fluid" src="assets/images/cage.jpg">
+        <h3 class="py-3 mb-2 bg-primary text-white">Nicolas Cage</h3>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 my-2">
+        <img class="img-fluid" src="assets/images/murray.jpg">
+        <h3 class="py-3 mb-2 bg-primary text-white">Bill Murray</h3>
+      </div>
+    </div>
+
+    <div class="row m-3">
+      <div class="col-12 col-sm-6 col-md-4 my-2">
+        <img class="img-fluid" src="assets/images/random.jpg">
+        <h3 class="py-3 mb-2 bg-primary text-white">Fence</h3>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 my-2">
+        <img class="img-fluid" src="assets/images/kitten.jpg">
+        <h3 class="py-3 mb-2 bg-primary text-white">Kitten</h3>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
